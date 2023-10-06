@@ -4,7 +4,7 @@ public class Program
     {
         Console.write();
         var dbContext = new DbContext(); 
-        var blogRepository = new BlogRepository(dbContext);
+        var postRepository = new PostRepository(dbContext);
         var commentRepository = new CommentRepository(dbContext);
     }
 }
